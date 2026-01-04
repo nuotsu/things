@@ -6,3 +6,14 @@
 }
 
 @custom-variant hover (&:hover);
+
+@layer {
+	label,
+	summary {
+		cursor: pointer;
+	}
+
+	kbd {
+		text-decoration: underline;
+	}
+}

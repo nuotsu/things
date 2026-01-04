@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './app.css'
+	import Controls from '$ui/controls/details.svelte'
 
 	let { children } = $props()
 </script>
@@ -13,3 +14,5 @@
 <main class="flex min-h-svh flex-wrap place-content-center items-center gap-ch">
 	{@render children()}
 </main>
+
+<Controls />
