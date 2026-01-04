@@ -1,5 +1,7 @@
 <script lang="ts">
-	import ShiftNudge from '$ui/shiftnudge.svelte'
+	import Greptile from '$ui/buttons/greptile.svelte'
+	import ShiftNudge from '$ui/buttons/shiftnudge.svelte'
 </script>
 
 <ShiftNudge />
+<Greptile />

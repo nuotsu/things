@@ -10,6 +10,6 @@
 	<link rel="icon" href="https://fav.farm/🥡" />
 </svelte:head>
 
-<main class="flex min-h-svh flex-wrap items-end justify-center">
+<main class="flex min-h-svh flex-wrap place-content-center items-center gap-ch">
 	{@render children()}
 </main>
