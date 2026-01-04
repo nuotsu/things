@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+@theme {
+	--spacing-ch: 1ch;
+	--spacing-lh: 1lh;
+}
+
+@custom-variant hover (&:hover);
