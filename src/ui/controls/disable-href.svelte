@@ -1,5 +1,5 @@
 <script lang="ts">
-	let disableHref = $state(false)
+	let disableHref = $state(true)
 
 	$effect(() => {
 		document.querySelectorAll('main a[href]').forEach((link) => {

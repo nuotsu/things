@@ -16,7 +16,7 @@
 	onmouseleave={() => (open = false)}
 	bind:open
 >
-	<summary class="group-not-open:px-ch" aria-label="Controls">
+	<summary class="group-not-open:px-[2ch] group-not-open:pt-ch" aria-label="Controls">
 		<span class="group-not-has-checked:hidden">*</span>
 	</summary>
 
