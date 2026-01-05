@@ -8,7 +8,7 @@
 			}
 
 			if (disableHref) {
-				link.setAttribute('href', '?')
+				link.setAttribute('href', '#')
 				link.removeAttribute('target')
 			} else {
 				link.setAttribute('href', (link as HTMLElement).dataset.href!)
