@@ -1,5 +1,3 @@
-<script lang="ts"></script>
-
 <a
 	href="https://www.greptile.com"
 	target="_blank"
@@ -19,7 +17,7 @@
 </a>
 
 <style>
-	@property --x {
+	@property --greptile-x {
 		syntax: '<percentage>';
 		initial-value: 0%;
 		inherits: true;
@@ -31,12 +29,12 @@
 			content: '';
 			position: absolute;
 			inset: 0;
-			mask: linear-gradient(135deg, #000, #000 var(--x), transparent var(--x));
-			transition: --x 0.5s linear;
+			mask: linear-gradient(135deg, #000, #000 var(--greptile-x), transparent var(--greptile-x));
+			transition: --greptile-x 0.5s linear;
 		}
 
 		&:hover {
-			--x: 100%;
+			--greptile-x: 100%;
 		}
 	}
 
